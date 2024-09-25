@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haxxor Games</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            background-image: url("Gif.gif");
+            color: #0f0;
+        }
+        header {
+            background-color: #000;
+            color: #0f0;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #0f0;
+        }
+        h1 {
+            margin: 0;
+            font-size: 36px;
+            letter-spacing: 2px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .game {
+            background-color: #000;
+            border: 2px solid #0f0;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px #0f0;
+            transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+        }
+        .game:hover {
+            background-color: rgba(0, 255, 0, 0.5); /* Semi-transparent green color */
+            border-color: #000;
+            color: #fff;
+        }
+        .game h2 {
+            margin-top: 0;
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #007bff; /* Blue color */
+            filter: brightness(130%); /* Increase brightness by 30% */
+        }
+        .game p {
+            margin-top: 5px;
+            font-size: 18px;
+            line-height: 1.5;
+            color: #ccc; /* Gray color */
+        }
+        .game a {
+            text-decoration: none;
+            color: #007bff; /* Blue color */
+            font-weight: bold;
+            filter: brightness(130%); /* Increase brightness by 30% */
+        }
+        .game a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        alert("never touch peepo. he gets pretty angry.")
+        var pepe = 0;
+        function hehe(){
+            alert("ouchie. you made peepo angy.");
+            pepe++;
+            if (pepe == 10){
+            alert("you gotta play my game now :)")
+            window.location.replace("/flappybird/index.html");
+            }
+        }
+    </script>    
+    <header>
+        <h1>Haxxor Games</h1>
+    </header>
+    <img width="20" height="20" id="pep" src="IMG_0157.jpeg" onclick="hehe()">
+
+    <div class="container">
+        <div class="game">
+            <h2>Dogeminer</h2>
+            <p class="blue" style="color:#007bff;">Make DogeCoin.<br><a href="/DogeMiner/doge.html" style="color:#007bff;">Play</a></p>
+        </div>
+        <div class="game">
+            <h2>Cookie Clicker</h2>
+            <p class="blue" style="color:#007bff;">Cookie.<br><a href="/Rb/index.html" style="color:#007bff;">play</a></p>
+        </div>
+        <div class="game">
+            <h2>Vex 5</h2>
+            <p class="blue" style="color:#007bff;">Stickman Parkour.<br><a href="/vex/vex.html" style="color:#007bff;">play</a></p>
+        </div>
+        <div class="game">
+            <h2>mario Kart</h2>
+            <p class="blue" style="color:#007bff;">VROOM VROOM. you may need to request mobile website.<br><a href="mk.html" style="color:#007bff;">play</a></p>
+        </div>
+        <div class="game">
+            <h2>Dogeminer 2</h2>
+            <p class="blue" style="color:#007bff;">The 2nd version of everyones favorite mining game.<br><a href="/play/index.html" style="color:#007bff;">play</a></p>
+        </div>
+        <!-- Add more games as needed -->
+    </div>
+</body>
+</html>
